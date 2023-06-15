@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb://127.0.0.1:27017
+      database : Task
+
+server.port: 8082
+
+task:
+  api : http://localhost:8081/tasks/
+  timeout : 1000
